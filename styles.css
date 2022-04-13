@@ -1,0 +1,40 @@
+div.calculator {
+  border: solid;
+  border-style: groove;
+  border-style: solid;
+  border-width: 20px;
+  border-radius: 40px;
+  margin: 60px;
+
+  background-color: rgb(243, 124, 103);
+}
+
+#button1 {
+  color: crimson;
+  background-color: rgb(84, 3, 3);
+  border-style: groove;
+}
+.output {
+  border: solid;
+  border-style: groove;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 20px;
+  margin: 60px;
+  border-radius: 10%;
+  height: 40px;
+}
+div#input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 23%;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  gap: 50px;
+}
