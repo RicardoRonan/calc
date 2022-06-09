@@ -14,6 +14,7 @@
   width: 256px;
   height: 70px;
   border: solid 1px;
+  box-shadow: 3px 3px 3px grey;
 }
 button {
   width: 4rem;
@@ -31,4 +32,22 @@ button {
 .button-item {
   background-color: #63656a;
   color: #f2ecff;
+  box-shadow: 3px 3px 3px grey;
+}
+.button-item:hover {
+  background-color: #00c896;
+}
+#calculate-button {
+  background-color: #518071;
+  box-shadow: 3px 3px 3px grey;
+}
+#calculate-button:hover {
+  background-color: #c8fcea;
+}
+#reset-button {
+  background-color: #518071;
+  box-shadow: 3px 3px 3px grey;
+}
+#reset-button:hover {
+  background-color: #c8fcea;
 }
