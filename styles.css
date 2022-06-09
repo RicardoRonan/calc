@@ -1,41 +1,34 @@
-div.calculator {
-  width: 700px;
-  height: 750px;
-  border: solid;
-  border-style: groove;
-  border-style: solid;
-  border-width: 10 px;
-  border-radius: 40px;
-  margin: 60px;
+/* CSS RESET */
 
-  background-color: rgb(243, 124, 103);
-}
-
-#button1 {
-  color: crimson;
-  background-color: rgb(84, 3, 3);
-  border-style: groove;
-}
-.output {
-  border-style: solid;
-
-  border-width: 5px;
-  border-radius: 20px;
-  margin: 60px;
-  border-radius: 10%;
-  height: 40px;
-}
-div#input {
+.calculator {
+  /* border: 2px solid black; */
+  /* background-color: #63656a; */
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 700px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+#output {
+  width: 256px;
+  height: 70px;
+  border: solid 1px;
 }
 button {
-  width: 23%;
-  padding: 10px;
-  font-size: 20px;
-  border-radius: 50%;
-  aspect-ratio: 1;
-  gap: 50px;
+  width: 4rem;
+  height: 4rem;
+}
+.col-3 {
+  flex: 0 0 auto;
+  width: 15%;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.button-item {
+  background-color: #63656a;
+  color: #f2ecff;
 }
