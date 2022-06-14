@@ -20,6 +20,9 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   word-break: break-all;
 }
+.output-container {
+  word-break: break-all;
+}
 button {
   width: 4rem;
   height: 4rem;
